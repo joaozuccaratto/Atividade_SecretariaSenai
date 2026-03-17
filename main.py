@@ -10,26 +10,12 @@ alunos = [
     ("Lucas", [])
 ]
 
-recuperacao = alunos_recuperacao(alunos)
-
 melhor_aluno = top_student(alunos)
 
 gerar_relatorio(alunos, recuperacao, melhor_aluno)
 
-print("Programa finalizado!")
-
-alunos = [
-    ("Ana", [8, 9, 7]),
-    ("Pedro", [5, 6]),
-    ("Lucas", []),
-    ("Julia", [6, 6]),
-    ("Carlos", [10, 9]),
-    ("Marina", [7, 7]),
-    ("João", [4, 5])
-]
-
 recuperacao = alunos_recuperacao(alunos)
-top_nome, top_media = top_estudante(alunos)
+top_nome, top_media = top_student(alunos)
 
 arquivo = open("relatorio.txt", "w")
 
