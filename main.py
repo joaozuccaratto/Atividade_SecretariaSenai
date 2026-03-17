@@ -2,7 +2,7 @@ from processamento import calcular_media, validar_notas, alunos_recuperacao, top
 
 alunos = [
     ("Ana", [8, 9, 7]),
-    ("Pedro", [5, 6]),
+    ("Pedro", [5, 7]),
     ("Carlos", [6, 9, 8]),
     ("Julia", [5, 7, 5]),
     ("Marcos", [7, 7, 6]),
