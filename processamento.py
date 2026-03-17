@@ -11,6 +11,7 @@ def validar_notas(notas):
 
     return True
 
+  
 def calcular_media(notas):
     soma = 0
 
@@ -20,3 +21,14 @@ def calcular_media(notas):
     media = soma / len(notas)
 
     return media
+
+  
+def alunos_recuperacao(alunos):
+    recuperacao = []
+
+    for nome, notas in alunos:
+        if validar_notas(notas):
+            media = calcular_media(notas)
+
+            if media < 7:
+                recuperacao.append((nome, media))
